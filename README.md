@@ -28,7 +28,7 @@ Welcome to the EarthCore Survey Form! This project aims to collect valuable insi
 
 To get started with the EarthCore Survey Form locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/earthcore-survey-form.git`
+1. Clone this repository: `[git clone https://github.com/your-username/earthcore-survey-form.git](https://github.com/priyanshiChaudhary-58/PseudoWebsite/tree/main)`
 2. Open the `EarthCore Survey Form.html` file in your preferred web browser.
 3. Start filling out the survey form and providing your valuable feedback.
 
