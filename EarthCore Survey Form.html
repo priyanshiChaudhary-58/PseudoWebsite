@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>EarthCore Survey Form</title>
+    <link rel="stylesheet" href="survey-css.css"/>
+  </head>
+  <body>
+    <h1 id="title">EarthCore - Empowering Change in 
+Nature's Guardianship</h1>
+   <p id="description"><i>"Welcome to EarthCore
+: Elevate Your Consciousness with EarthCore's Earth-Focused Initiatives."</i></p>
+    <form id="survey-form" method="post" action='https://register-demo.coreearth.org'>
+      <fieldset>
+<label for="name" id="name-label">Name:<br>
+  <input class="input-column" id="name" name="first-name" type="text" placeholder="Enter your name" required /><br>
+  </label>
+<label for="email" id="email-label">Email:<br> 
+<input class="input-column" id="email" name="email" type="email" placeholder="Enter your email" required />
+</label><br>
+<label for="number" id="number-label">Age (optional):<br>
+<input class="input-column" id="number" type="number" name="age" min="8" max="120" placeholder="Age" /></label><br>
+<label for="country" id="country-label">Country of Residency:<br>
+ <input class="input-column" id="country" name="Residency-country" type="text" placeholder="Enter the country you are living in" required /><br>
+ </label>
+<label for="dropdown">Which option best describes your current role?<br>
+<select class="non-input" id="dropdown" name="role">
+<option value="">Select current role</option>
+<option value="1">Student</option>
+<option value="2">Full Time Job</option>
+<option value="3">Full Time learner</option>
+<option value="4">Prefer not to say</option>
+<option value="5">Other</option>
+    </select>
+  </label><br>
+  <label>Gender:<br>
+<label for="female">
+<input  class="radio-inputs" id="female" type="radio" name="gender" class="inline" value="female" /> Female </label><br>
+<label for="male">
+<input class="radio-inputs" id="male" type="radio" name="gender" class="inline" value="male" /> Male</label><br>
+<label for="other">
+<input  class="radio-inputs" id="other" type="radio" name="gender" class="inline" value="other" />LGBTQ+</label><br>
+</label>
+<label for="feature">Which of our campaign, you would like to join?<br>
+<select class="non-input" id="feature" name="features">
+<option value="">Select an option</option>
+<option value="1">EarthCore Sustainable Movement</option>
+<option value="2">NeatAir - Walk to Breathe</option>
+<option value="3">EarthCore Anti-Plastic Campaign</option>
+<option value="4">50 trees per metre Campaign</option>
+<option value="5">NA</option>
+    </select><br>
+  </label> 
+  <label>What motivates you to learn more about nature and sustainable development? (Select all that apply)<br>
+<input type="checkbox" id="personal" name="personalinterest" value="interest-curiosity">
+<label for="personal"> Personal interest and curiosity</label><br>
+<input type="checkbox" id="concern" name="concernforenvironment" value="concern-climate">
+<label for="concern"> Concern for the environment and climate</label><br>
+<input type="checkbox" id="vision" name="makeimapct" value="positive-impact">
+<label for="vision"> Vision to make a positive impact</label><br> 
+<input type="checkbox" id="education" name="eduactionreason" value="education-profession">
+<label for="education"> Educational or professional reasons</label><br> 
+<input type="checkbox" id="other" name="specific" value="written">
+<label for="other">Other</label><br>
+<textarea class="input-column" id="other-textarea" name="other-text" rows="2" cols="35" placeholder="Please specify"></textarea> 
+  <label for="suggestions">Any comments or suggestions?<br>
+<textarea class="input-column" id="suggestions" name="suggestion" rows="5" cols="50" placeholder="Enter your comments here..."></textarea>
+  </label>
+  <input id="submit" type="submit" value="Submit" />
+    </form>
+</fieldset>
+
+
